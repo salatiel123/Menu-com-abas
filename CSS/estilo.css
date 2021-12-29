@@ -1,0 +1,45 @@
+
+
+/* Menu com abas */
+body{
+	font-family: "Trebuchet MS", "Helvetica", sans-serif;
+}
+
+/* Configuração da lista */
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 720px;
+}
+/* Colocar link na horizontal */
+ul li{
+	float: left;
+	background: url(../imagens/aba-direita.png) no-repeat top right;
+}
+
+/* Configuração do Link/ espaçamento */
+ul a{
+	display: block;
+	padding: 0 2em;
+	line-height: 3em;
+	text-decoration: nome;
+	background: url(../imagens/aba-esquerda.png) no-repeat top left;
+	color: #fff;
+}
+/* deslise do mouse */
+ul a:hover{
+	color: #894a1f;
+	background:yellowgreen;
+}
+
+/* marcar atual tem que ser na ul */
+ul #atual {
+	background: url(../imagens/aba-direita-atual.png) no-repeat top right ;
+	
+}
+
+ul #atual a{
+	background: url(../imagens/aba-esquerda-atual.png) no-repeat top left;
+}
+
